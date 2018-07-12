@@ -28,8 +28,9 @@ export class AddComponent implements OnInit {
       const employee: IEmployee = { 'name': this.name, 'address': this.address, 'gender': this.gender };
       this.employeeArray.push(employee);
       localStorage.setItem('employee', JSON.stringify(this.employeeArray));
-    }    else {
-       alert('Enter the details'); }
+    } else {
+      alert('Enter the details');
+    }
     this.name = '';
     this.address = '';
 

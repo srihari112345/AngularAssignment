@@ -22,8 +22,8 @@ export class ShowComponent implements OnInit {
 
   ngOnInit() {
 
-   this.employeeArray = JSON.parse(localStorage.getItem('employee'));
-   console.log(this.employeeArray);
+    this.employeeArray = JSON.parse(localStorage.getItem('employee'));
+    console.log(this.employeeArray);
   }
 
 
