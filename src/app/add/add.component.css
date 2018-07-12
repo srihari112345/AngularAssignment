@@ -1,0 +1,15 @@
+#input{
+    align-content: center;
+    top:50%;
+    left:50%;
+}
+
+td {
+    padding: 15px;
+}
+
+.buttons td{
+
+    width: 400px;
+    
+}

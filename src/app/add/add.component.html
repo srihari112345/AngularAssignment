@@ -1,0 +1,41 @@
+  <div  id="input">
+    <table>
+      <tr>
+        <td>
+          Name
+        </td>
+        <td>
+          <input type="text" id="name-input" [(ngModel)]="name" placeholder="Enter your name">
+          
+        </td>
+      </tr>
+      <tr>
+          <td>
+            Address
+          </td>
+          <td>
+            <input type="text" id="age-input" [(ngModel)]="address" placeholder="Enter your address">
+            
+          </td>
+        </tr>
+          <td>
+            Gender
+          </td>
+          <td>
+            
+            Male <input type="radio" value="male"  [checked]="gender === male" [(ngModel)]="gender" name="selector">
+          </td>    
+          <td>
+            Female <input type="radio" [checked]="gender === female" value="female" [(ngModel)]="gender" name="selector">
+          </td>
+        <tr>
+          <td>
+          </td>
+          <td>
+            <button (click)="onSubmit()"> Submit </button>
+          </td>
+        </tr>
+    </table>
+  </div>
+ 
+
